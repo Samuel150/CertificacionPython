@@ -1,0 +1,12 @@
+Mis notas del aula
+Alumno: Samuel Huanca 
+Email: hpsamuel150@gmail.com
+Area: Sistemas Computacionales
+
+cp: Copiar
+rm: Remover
+mv: Mover/Copiar
+mkdir: Crear directorio
+rmdir: Remover directorio
+touch: Crear archivo
+ls: Listar contenido del directorio
