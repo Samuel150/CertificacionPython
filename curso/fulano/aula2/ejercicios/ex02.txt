@@ -1,0 +1,5 @@
+man ls
+
+ls -a : muestra todos los archivos incluyendo ocultos del directorio
+ls -g : muestra los mismo que "ls -l" pero sin el autor de los archivos
+ls -i : muestra los archivos con el numero indice del archivo

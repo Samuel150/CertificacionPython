@@ -1,0 +1,30 @@
+
+a) ls: lista el contenido del directorio actual de manera ordenada
+   ls -m: lista el contenido separado por comas
+   ls -l: lista el contenido del directorio de manera extensa
+	  detallando los permisos, los usuarios y fecha de
+	  creacion del archivo
+   ls -l -v: Realiza la misma accion que ls -l pero lo muestra
+	     de manera ordenada
+b) ls a*: lista todos los archivos que empiezan por "a" 
+   ls a*.c: lista todos los archivos que empiezan por "a" y
+            terminan en ".c"
+   ls a??.c: lista todos los archivos que empiezan por "a"
+             continuan con dos caracteres cualquiera y terminan
+	     en ".c"
+   ls a????.c: lista todos los archivos que comienzan por a
+	       continuan con 4 caracteres cualquiera y terminan
+	       en ".c"
+   ls ?iii?.c: lista todos los archivos que comiencen con cualquier
+	       caracter continuan con "iii" y con cualquier caracter
+	       y terminan en ".c"
+   ls *9.c: lista todos los archivos que comiencen por cualquier
+	    cadena de caracteres y que terminen en ".c"
+c) ls ai[1-5].c: lista todos los archivos que comienzan con "ai"
+		  continuan con cualquier numero del "1" al "5"
+		  y terminan en ".c"
+   ls [a-c]ii1.c: lista todos los archivos que comienzan por
+		  cualquier caracter de la "a" a la "c" continua con
+		  "ii1.c"
+  
+

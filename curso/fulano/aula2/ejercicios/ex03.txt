@@ -1,0 +1,8 @@
+man cp
+cp -f : forzar copiado
+
+man mkdir
+mkdir -v : imprime un mensaje para cada directorio creado
+
+man rm
+rm -r : borra directorios recursivamente incluyendo su contenido
