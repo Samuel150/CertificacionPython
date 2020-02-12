@@ -1,0 +1,7 @@
+ls > archivo.txt
+
+
+sort < archivo.txt
+
+
+sort < archivo.txt > resultado.txt
