@@ -1,0 +1,9 @@
+Forever Script
+
+Se lo ejecuta con ./forever.sh
+Se lo pone en backgound con ctrl-z y bg "numero de proceso"
+Con ps hallamos es proceso
+Lo matamos con kill "pid"
+
+Si usamos nohup ./forever.sh > salida.txt 2> salida.err &
+y cerramos la terminal el proceso ya no esta corriendo

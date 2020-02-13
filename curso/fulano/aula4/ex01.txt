@@ -1,0 +1,35 @@
+Comandos
+
+A)Use comandos para saber
+
+1)Proceso de usuario especifico
+ps -fu usuario
+
+2)Proceso de todos los usuarios
+ps -ef
+
+3)Hallar proceso firefox
+pidof firefox
+
+4)Matar a firefox con kill
+kill 2058
+"nota 2058 es el pid"
+
+
+B)Abra gedit via linea de comandos y coloque gedit en background con ctr-z bg
+
+1)Traer a gedit de nuevo a foreground
+Se abre gedit se presiona ctrl-z y despues fg "numero de proceso"
+
+C)Use top para determinar que procesos consumen mas recursos
+Se abre top con "top"
+Se presiona -m una vez top este corriendo
+
+D)Use man top para entendero todo lo que es listado
+man top
+
+E)Mate algun proceso no esencial con top y la tecla k
+Abrir top
+Presionar k "pid"
+Presionar enter dos veces
+nota "pid" es el id del proceso
