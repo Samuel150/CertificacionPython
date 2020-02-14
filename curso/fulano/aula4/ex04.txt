@@ -9,4 +9,9 @@ Los que comienzan por A
 Busca los que no comienzan por A y pone el resultado en nombresNoA.txt
 4)grep -v "[A]" nombres.txt > nombresA.txt
 Invierte el sentido de grep
-
+5)sort pesquisa.txt | uniq | wc -l
+Ordena los nombres, elimina los repetidos y cuenta el numero de lineas,
+el resultado es que hay 10 candidatos diferentes
+6)sort pesquisa.txt | uniq -c | sort -rn
+Ordena el archivo, cuenta el numero de ocurrencias de lineas iguales,
+y los ordena de manera descendente de acuerdo al numero de ocurrencias
