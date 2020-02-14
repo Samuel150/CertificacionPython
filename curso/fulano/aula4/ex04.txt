@@ -1,0 +1,12 @@
+Ejercicio 4
+1)wc nombres.txt
+Numero de palabras caracteres y lineas del archivo
+2)grep "[^A]" nombres.txt 
+Los que no comienzan por A
+2)grep "[A]" nombres.txt
+Los que comienzan por A
+3)grep "[^A]" nombres.txt > nombresNoA.txt
+Busca los que no comienzan por A y pone el resultado en nombresNoA.txt
+4)grep -v "[A]" nombres.txt > nombresA.txt
+Invierte el sentido de grep
+

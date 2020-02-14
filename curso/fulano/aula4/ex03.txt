@@ -1,0 +1,37 @@
+1)Nombre de la maquina
+hostname
+2)Fecha y hora del sistema
+data
+3)En que directorio esta el comando cp
+which cp
+4)10 ejemplos de ls
+	a)find .
+	Busca todos los archivos del directorio y subdirectorios
+	b)find ./CertiPython -maxdepth 7 -name *.o
+	Busca todos los archivos del directorio y subdirectorios con maxima
+	profundidad de 7 y que terminen en ".o"
+	c)find ./CertiPython -name *.o ! -name *1.o
+	Busca los archivos que terminen en ".o" excluyendo los que terminen en "1.o"
+	d)find ./CertiPython -type f -name "*.o"
+	Busca los archivo que terminen en ".o" que sean de tipo archivo
+	d)find ./CertiPython -type d -name "ejemplos"
+	Busca los directorios, no archivos ejemplos
+	e)find ~ -type f -name ".*"
+	Busca los archivos ocultos
+	f)find . -type f -perm 0755
+	Busca los archivos con permisos 755
+	g)find . –user samuel
+	Busca los archivos del usuario samuel
+	h)find . –group adm
+	Busca los archivos del grupo del usuario samuel
+	i)find / -ntime 5
+	i)find / -atime 5
+	i)find / -mtime +30 –mtime -90
+	Archivos modificados, accedidos y modificados en ciertos dias
+	j)find / -size 40M
+	Busca archivos con tamanio de 40M
+5)find ./CertiPython/GitHub/CertificacionPython/curso/ -maxdepth 8  -name *.txt 
+Buscar en curso los archivo que terminen en .txt
+6)find ./CertiPython -name "*.so" -exec rm {} \;
+Buscar archivos que terminen en ".so" los ejecuta y los elimina
+  
