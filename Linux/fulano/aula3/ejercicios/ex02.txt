@@ -1,7 +1,9 @@
+Redireccionar ls al archivo archivo.txt
 ls > archivo.txt
 
-
+Redirecionar el archivo archivo.txt para el comando sort
 sort < archivo.txt
 
-
+Redirecionar el archivo archivo.txt para el comando sort y guardar la respuesta
+en el archivo resultado.txt
 sort < archivo.txt > resultado.txt
